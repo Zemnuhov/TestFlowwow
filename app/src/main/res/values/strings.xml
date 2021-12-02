@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestFlowwow</string>
+    <string name="string_input">Вход</string>
+    <string name="input_number">Введите свой номер телефона</string>
+</resources>
