@@ -27,6 +27,19 @@
         app:layout_constraintStart_toEndOf="@+id/editCountryCode"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_line" />
+    <TextView
+        android:id="@+id/hintView"
+        android:layout_width="263dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/noto_sans"
+        android:textColor="#AAA9A9"
+        android:text="999 999 99 99"
+        android:gravity="bottom"
+        android:textSize="34sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextNumber"
@@ -37,9 +50,11 @@
         android:ems="10"
         android:fontFamily="@font/noto_sans"
         android:gravity="center_vertical"
-        android:hint="996 568 24 05"
+        android:hint=""
         android:inputType="number"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

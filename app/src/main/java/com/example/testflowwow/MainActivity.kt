@@ -8,20 +8,16 @@ import android.widget.EditText
 import com.jakewharton.rxbinding4.widget.textChangeEvents
 
 class MainActivity : AppCompatActivity() {
-    lateinit var countryCodeEditText: EditText
-    lateinit var number: EditText
+
+    lateinit var numberEntryView: NumberEntryView
 
     fun initViews(){
-        countryCodeEditText = findViewById(R.id.editCountryCode)
-        number = findViewById(R.id.editTextNumber)
+        numberEntryView = NumberEntryView(this)
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initViews()
-        number.textChangeEvents().subscribe{
-            PhoneNumberFormattingTextWatcher(number.text.toString())
-        }
     }
 }
