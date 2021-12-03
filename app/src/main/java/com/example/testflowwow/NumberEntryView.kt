@@ -7,6 +7,7 @@ import android.util.Log
 import android.widget.EditText
 import android.widget.TextView
 import com.jakewharton.rxbinding4.widget.textChangeEvents
+import kotlinx.serialization.json.Json
 import java.security.AccessControlContext
 import kotlin.text.StringBuilder
 
@@ -20,9 +21,9 @@ class NumberEntryView(private val mainView: MainActivity) {
     init {
         numberEditText.filters = arrayOf(InputFilter.LengthFilter(13))
         numberEditText.textChangeEvents().subscribe{
-            var s: String = rusNumber.replace("9","5")
-
-            numberHintTextView.text = s
+            countryCodeEditText.selectAll()
+            val hintText = it.text.toString() + rusNumber.subSequence(it.text.length,rusNumber.length)
+            numberHintTextView.text = hintText
             when(it.text.length){
                 3,7,10 -> if (it.count!=0) numberEditText.text.append(" ")
             }

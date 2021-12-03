@@ -1,5 +1,8 @@
 package com.example.testflowwow
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class DataNumberItem(
     val cc: List<String>,
     val desc_en: String,
