@@ -5,20 +5,22 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
+
     <EditText
         android:id="@+id/editCountryCode"
-        android:layout_width="51dp"
+        android:layout_width="wrap_content"
         android:layout_height="45dp"
         android:background="@null"
-        android:gravity="center"
-        android:ems="10"
+        android:ems="1"
         android:fontFamily="@font/noto_sans_bold"
-        android:hint="+7"
+        android:gravity="center"
         android:inputType="phone"
         android:text="+7"
         android:textSize="34sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -28,14 +30,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_line" />
     <TextView
-        android:id="@+id/hintView"
+        android:id="@+id/hintNumberView"
         android:layout_width="263dp"
         android:layout_height="43dp"
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:fontFamily="@font/noto_sans"
         android:textColor="#AAA9A9"
-        android:text="999 999 99 99"
         android:gravity="bottom"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -50,7 +51,6 @@
         android:ems="10"
         android:fontFamily="@font/noto_sans"
         android:gravity="center_vertical"
-        android:hint=""
         android:inputType="number"
         android:textSize="34sp"
         app:layout_constraintStart_toEndOf="@+id/imageView"
