@@ -4,18 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/close_button.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic__.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_close.xml" value="0.21875" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_group_1.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_group_2.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_group_3.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_line.xml" value="0.21875" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_one_wait.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/ic_three_dots_menu_icon_184614.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/wait_animation.xml" value="0.21875" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/drawable/wait_one.xml" value="0.22" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/layout/activity_main.xml" value="0.33" />
-        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/layout/number_entry.xml" value="0.67" />
+        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/layout/number_entry.xml" value="0.5" />
         <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.21875" />
         <entry key="..\:/Users/zemnu/AndroidStudioProjects/TestFlowwow/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.21875" />
       </map>

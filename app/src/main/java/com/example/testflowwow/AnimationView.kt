@@ -10,27 +10,27 @@ import androidx.core.view.marginTop
 class AnimationView(val height:Float,var width:Float) {
 
 
-    fun numberAnimation(view: NumberEntryView){
-        view.numberHintTextView.visibility = View.GONE
-        ViewCompat.animate(view.layout)
-            .y(height/2-view.layout.marginTop)
-            .x(width/2-view.layout.width/2+view.layout.marginStart)
-            .setDuration(2500)
-
-            .withEndAction{
-                ViewCompat.animate(view.layout)
-                    .scaleX(view.countryCodeEditText.scaleX*1.2F)
-                    .scaleY(view.countryCodeEditText.scaleY*1.2F)
-                    .setDuration(1000)
-
-            }
-        view.countryCodeEditText.isCursorVisible = false
-        view.countryCodeEditText.keyListener = null
-
-        view.numberEditText.isCursorVisible = false
-        view.numberEditText.keyListener = null
-
-    }
+//    fun numberAnimation(view: NumberEntryView){
+//        view.numberHintTextView.visibility = View.GONE
+//        ViewCompat.animate(view.layout)
+//            .y(height/2-view.layout.marginTop)
+//            .x(width/2-view.layout.width/2+view.layout.marginStart)
+//            .setDuration(2500)
+//
+//            .withEndAction{
+//                ViewCompat.animate(view.layout)
+//                    .scaleX(view.countryCodeEditText.scaleX*1.2F)
+//                    .scaleY(view.countryCodeEditText.scaleY*1.2F)
+//                    .setDuration(1000)
+//
+//            }
+//        view.countryCodeEditText.isCursorVisible = false
+//        view.countryCodeEditText.keyListener = null
+//
+//        view.numberEditText.isCursorVisible = false
+//        view.numberEditText.keyListener = null
+//
+//    }
 
     fun hintTextViewAnimation(view: View){
 

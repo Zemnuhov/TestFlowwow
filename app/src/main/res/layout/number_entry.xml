@@ -7,54 +7,32 @@
     android:id="@+id/numberLayout">
 
 
-    <EditText
-        android:id="@+id/editCountryCode"
-        android:layout_width="wrap_content"
-        android:layout_height="45dp"
-        android:background="@null"
-        android:ems="1"
-        android:fontFamily="@font/noto_sans_bold"
-        android:gravity="center"
-        android:inputType="number"
-        android:text="+7"
-        android:textSize="34sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintStart_toEndOf="@+id/editCountryCode"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_line" />
     <TextView
         android:id="@+id/hintNumberView"
         android:layout_width="263dp"
         android:layout_height="43dp"
-        android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:fontFamily="@font/noto_sans"
-        android:textColor="#AAA9A9"
         android:gravity="bottom"
+        android:textColor="#AAA9A9"
         android:textSize="34sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="+7 000 000 00 00"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextNumber"
         android:layout_width="263dp"
         android:layout_height="45dp"
-        android:layout_marginStart="5dp"
         android:background="@null"
         android:ems="10"
         android:fontFamily="@font/noto_sans"
         android:gravity="center_vertical"
         android:inputType="number"
         android:textSize="34sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
+        android:text="+7"
+
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
 
