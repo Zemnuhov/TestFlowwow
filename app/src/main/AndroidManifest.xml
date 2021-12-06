@@ -11,6 +11,7 @@
         android:theme="@style/Theme.TestFlowwow">
         <activity
             android:name=".MainActivity"
+            android:windowSoftInputMode="stateVisible"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

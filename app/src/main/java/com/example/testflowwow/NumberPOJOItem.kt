@@ -19,15 +19,15 @@ data class NumberPOJOItem(
     }
 
     fun getNumberMask(): String{
-        val codeLength =
-            if(mask.indexOf("(") != -1)
-                mask.indexOf("(")
-            else
-                mask.indexOf("-")
-
-        val temp = mask.substring(codeLength+1,mask.length)
-        val mask = temp.replace(")"," ").replace("-"," ")
-
-        return mask.map { if(it!=' ') "0" else it }.joinToString(separator = "")
+        val mask = mask.replace("("," ")
+            .replace(")"," ")
+            .replace("-"," ")
+        return mask.map {
+            when(it){
+                '+'->'+'
+                ' '->' '
+                else -> '_'
+            }
+        }.joinToString(separator = "")
     }
 }

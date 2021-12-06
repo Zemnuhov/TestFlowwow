@@ -33,7 +33,6 @@ import android.view.WindowMetrics
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.widget.*
 import androidx.core.view.ViewCompat
-import br.com.sapereaude.maskedEditText.MaskedEditText
 import com.jakewharton.rxbinding4.widget.editorActionEvents
 
 
@@ -45,7 +44,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var waitTextView: LinearLayout
     lateinit var waitImageView: ImageView
     lateinit var animation: AnimationView
-    lateinit var maskedEditText: MaskedEditText
 
 
     fun initViews(){
@@ -73,7 +71,7 @@ class MainActivity : AppCompatActivity() {
     fun toComeIn(){
         animation.inputTextViewAnimation(inputTextView,waitTextView,waitImageView)
         animation.hintTextViewAnimation(hintTextView)
-        //animation.numberAnimation(numberEntryView)
+        animation.numberAnimation(numberEntryView)
 
     }
 
