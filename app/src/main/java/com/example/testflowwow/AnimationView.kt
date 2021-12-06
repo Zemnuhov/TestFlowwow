@@ -17,7 +17,7 @@ class AnimationView(val height:Float,var width:Float) {
             .withEndAction{
             ViewCompat.animate(view.layout)
                 .y(height/2-view.layout.marginTop)
-                .x(width/2-view.layout.width/2+view.layout.marginStart)
+                .x(width/2-view.layout.width/2-view.layout.marginStart)
                 .setDuration(2000)
                 .withEndAction{
                     ViewCompat.animate(view.layout)
