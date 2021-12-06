@@ -7,22 +7,14 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.content.ContextCompat
 import com.google.gson.Gson
 import com.jakewharton.rxbinding4.widget.TextViewTextChangeEvent
 import com.jakewharton.rxbinding4.widget.textChangeEvents
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import ru.tinkoff.decoro.MaskImpl
-
-import ru.tinkoff.decoro.watchers.MaskFormatWatcher
-
-import ru.tinkoff.decoro.watchers.FormatWatcher
-
 import ru.tinkoff.decoro.parser.UnderscoreDigitSlotsParser
-import androidx.core.content.ContextCompat.getSystemService
-
-
-
+import ru.tinkoff.decoro.watchers.FormatWatcher
+import ru.tinkoff.decoro.watchers.MaskFormatWatcher
 
 
 class NumberEntryView(private val mainView: MainActivity) {
